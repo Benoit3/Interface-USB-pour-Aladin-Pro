@@ -12,14 +12,20 @@ Si votre cable comporte des signaux supplémentaires ( RTS, CTS, jaune et bleu p
 Il faut en plus un régulateur 3.3V 78L33 et un circuit 74HC04.
 
 Le schéma du montage est le suivant : 
+![Schéma](images/800px-AladinInterfaceSchematic.png)
 
 Pour la réalisation pratique, le schéma est suffisamment simple pour ne pas nécessiter de circuit imprimé. Il suffit d'utiliser une petite plaque de Veroboard à pastilles. Après quelques minutes de soudure et protection à l'aide film thermorétractable on obtient le résultat suivant: 
+![AladinInterface1](images/Fichier_AladinInterface1.jpg)
+![AladinInterface2](images/Fichier_AladinInterface2.jpg)
+![AladinInterface3](images/Fichier_AladinInterface3.jpg)
 
-Pour l'utiliser il suffit de connecter la prise USB sur son PC favori, lancer son logiciel favori (exemple Subsurface, connecter le fil rouge sur le contact B, et le noir sur le - : 
+Pour l'utiliser il suffit de connecter la prise USB sur son PC favori, lancer son logiciel favori (exemple Subsurface, connecter le fil rouge sur le contact B, et le noir sur le - :
+
+![AladinInterface4](images/Fichier_AladinInterface4.jpg)
 
 Les données sont envoyées au PC lors de l'affichage du log (appui sur E puis +) de la plongée 1 (la dernière).
 
 
-Remarque 1 : le protocole de communication de l'Aladin est disponible sur internet, par exemple ici
+Remarque 1 : le protocole de communication de l'Aladin est disponible sur internet, par exemple [ici](http://dive.hemnet.com.au/projects/gizmo/Aladin%20Info%202-1.htm)
 
-Remarque 2 : Le logiciel opensource Subsurface permet de télécharger les plongées et de gérer un carnet
+Remarque 2 : Le logiciel opensource Subsurface permet de télécharger les plongées et de gérer un carnet.
